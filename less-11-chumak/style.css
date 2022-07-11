@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#textarea {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.textaria-container {
+  margin: 20px;
+  width: 50%;
+  height: 370px;
+  background-color: rgb(204, 206, 206);
+  padding: 20px 50px;
+  border-radius: 5px;
+}
+.hidden-container,
+.style-box {
+  display: none;
+}
+.style-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+.style-box .font-size,
+.style-box .font-family-box,
+.style-box .colors-box,
+.style-box .text-style-box {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.style-box .font-size input,
+.style-box .text-style-box input {
+  margin: 5px;
+}
+
+.style-box .font-family-box label,
+.style-box .colors-box label {
+  margin-bottom: 15px;
+}
+
+.style-box .colors-box {
+  position: relative;
+}
+.color-variable-box {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 136px;
+  height: 136px;
+  position: absolute;
+  right: 135px;
+  top: -20px;
+  border: 1px solid rgb(85, 75, 75);
+}
+
+.color-item {
+  display: block;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+}
+
+.add-box {
+  display: block;
+}
+.add-box h2 {
+  margin: 20px 0;
+}
+.add-box label {
+  margin-right: 20px;
+}
+
+.add-table {
+  display: none;
+}
+.add-box input {
+  margin-right: 5px;
+}
+
+.add-variable-hidden-box,
+.add-list-box {
+  display: none;
+}
+
+.add-table .form-table-count,
+.add-table .form-table-style {
+  display: flex;
+  flex-direction: column;
+}
+.add-table .form-table-count,
+.add-table .form-table-style,
+.add-table .form-table-border {
+  font-size: 14px;
+}
+.add-table .form-table-count div,
+.add-table .form-table-style div {
+  margin: 10px 0;
+}
+
+.add-table .form-table-count input,
+.add-table .form-table-style input,
+.add-list-box input,
+.add-list-box select {
+  width: 380px;
+}
+.add-table .form-table-count label {
+  margin-right: 100px;
+}
+
+.add-table .form-table-style label {
+  margin-right: 85px;
+}
+.add-table .form-table-border {
+  display: block;
+}
+.add-table .form-table-border input {
+  width: 100px;
+}
+
+.add-list-box input {
+  margin: 20px 0;
+}
+
+#count-li {
+  margin-left: 150px;
+}
+#type-of-marks {
+  margin-left: 115px;
+  margin-bottom: 20px;
+}
+
+#btn-create-list {
+  width: 100px;
+  padding: 10px 20px;
+  background-color: green;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#edit,
+#style,
+#add,
+#save {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 20px 5px;
+  cursor: pointer;
+}
+#edit:hover {
+  background-color: rgb(231, 197, 44);
+}
+#style:hover {
+  background-color: rgba(74, 82, 202, 0.63);
+}
+#add:hover {
+  background-color: rgb(233, 16, 16);
+}
+#save:hover {
+  background-color: rgb(9, 107, 9);
+}
+
+#text-color,
+#background-color {
+  background-color: rgb(170, 165, 165);
+  border-radius: 3px;
+  border: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btn-create-table {
+  width: 120px;
+  padding: 5px 20px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#text-color:hover,
+#background-color:hover {
+  background-color: rgb(150, 146, 146);
+}
+
+#edit {
+  background-color: rgb(255, 208, 0);
+}
+
+#style {
+  background-color: rgb(115, 155, 241);
+}
+
+#add {
+  background-color: red;
+}
+
+#save {
+  background-color: green;
+}
